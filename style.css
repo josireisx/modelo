@@ -1,0 +1,107 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header
+
+header h1 {
+  font-size: 2rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+  color: #ECA154;
+}
+
+.banner {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ECA154;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}

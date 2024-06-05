@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeRapid - Loja Online</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="pedidos.html">Pedidos</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="loyalty-program.html">Programa de Fidelidade</a></li>
+                    <li><a href="history.html">História do Café no Brasil</a></li>
+                    <li><a href="gourmet-coffee.html">O que é Café Gourmet?</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Bem-vindo à CoffeRapid</h1>
+            <p>Sua fonte de café gourmet de qualidade.</p>
+            <a href="menu.html" class="btn">Ver Menu</a>
+        </div>
+    </section>        
+    </header>
+ 
+    <main>
+        <section>
+            <h2>Nossos Cafés</h2>
+            <ul>
+                <li>Expresso - R$ 4,00</li>
+                <li>Cappuccino - R$ 6,00</li>
+                <li>Latte - R$ 5,50</li>
+            </ul>
+        </section>
+        
+        <section id="order-status">
+            <h2>Acompanhar Status do Pedido</h2>
+            <p>Status: <span id="status">Pedido Confirmado</span></p>
+            <p>Estimativa de Entrega: <span id="delivery-time">30 minutos</span></p>
+        </section>
+
+        <section id="customize-coffee">
+            <h2>Personalizar Meu Café</h2>
+            <form id="coffee-form">
+                <label for="coffee-type">Tipo de Café:</label>
+                <select id="coffee-type">
+                    <option value="expresso">Expresso</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="latte">Latte</option>
+                </select>
+
+                <label for="sugar-level">Quantidade de Açúcar:</label>
+                <input type="number" id="sugar-level" min="0" max="5" value="2">
+
+                <label for="syrup">Adicionar Xarope:</label>
+                <input type="checkbox" id="syrup" name="syrup">
+
+                <label for="coffee-strength">Intensidade do Café:</label>
+                <select id="coffee-strength">
+                    <option value="fraco">Fraco</option>
+                    <option value="médio">Médio</option>
+                    <option value="forte">Forte</option>
+                </select>
+
+                <button type="submit">Finalizar Pedido</button>
+            </form>
+        </section>
+
+        <section id="rate-experience">
+            <h2>Avaliar a Experiência</h2>
+            <p>O que achou da sua experiência com o CoffeRapid?</p>
+            <button id="rate-btn">Avaliar Agora</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CoffeRapid - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="index3.js"></script>
